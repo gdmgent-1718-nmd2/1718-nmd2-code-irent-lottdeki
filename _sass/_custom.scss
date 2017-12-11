@@ -1,0 +1,105 @@
+body {
+    margin-bottom: 80px;
+}
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 26px;
+}
+h2 {
+    color: $orange;
+    font-family: $font-family-title;
+    text-transform: uppercase;
+}
+
+p {
+    color: $blue;
+    font-family: $font-family-text;
+}
+
+.navbar {
+    background-color: $orange;
+}
+
+.buttonhuurmij {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    border-bottom-color: $blue;
+    background: none;
+}
+
+.buttonreg {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    border-bottom-color: $blue;
+    background: none;
+    width: 100px;
+    transition: width 2s, margin-left 2s;
+}
+.buttonreg:hover {
+    width: 200px;
+    margin-left:-50px;
+}
+
+.hapjes {
+    margin-bottom: 30px;
+}
+
+.balk {
+    background-color: $blue;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+}
+
+.kader{
+    border-style: solid;
+    border-color: $blue;
+    border-radius: 0;
+    border-width: 4px;
+}
+
+.bus {
+    width: 90%;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .bus {
+        width: 85%;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .bus {
+        width: 80%;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .bus {
+        width: 65%;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .bus {
+        width: 65%;
+    }
+}
