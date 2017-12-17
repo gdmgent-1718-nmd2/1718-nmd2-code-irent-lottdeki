@@ -1,40 +1,69 @@
 ---
-layout   : default
+layout : default
 permalink: /
 # Custom Page Variables
 # ─────────────────────
 title: Home
 ---
-<div class="col-12 text-center">
-    <img src="assets/img/aperobus_illustratie.png" class="bus">
+
+<div class="text-center">
+            <img src="assets/img/aperobus_illustratie.png" class="bus">
 </div>
 
-<div class="col-12 balk">
+<div class="intro">
     <h1>Voor al je feestjes: huur onze bus met verrassende hapjes en drankjes</h1>
 </div>
 
 <div class="container">
     <div class="row">
-        <div class="col-12">
-            <p>De apérobus is veel meer dan een foodtruck. Wij bieden je een breed gamma aan van verrassende aperitiefhapjes en drankjes. Je kan de bus huren voor al je evenementen, van babyborrels tot bedrijfsfeestjes: wij maken er een heus feest van. </p>
+        <div class="col-12 col-lg-6">
+            <h2>De aperobus</h2>
+            <p>De apérobus is veel meer dan een foodtruck. Wij bieden je een breed gamma aan van verrassende aperitiefhapjes
+            en drankjes.
+            <br>Je kan de bus huren voor al je evenementen, van babyborrels tot bedrijfsfeestjes: wij maken er een heus feest
+            van.</p>
         </div>
-
-        <div class="col-12">
+        <div class="col-12 col-lg-6">
             <h2>Over ons</h2>
-            <p>Het idee voor onze aperobus ontsproot in oktober 2017. Wij zijn een enthousiast team dat verzot is op lekker eten en drinken: Lotte De Kimpe en Noa Dekocker. </p>
-            <a href="over_ons.html"><button type="button" class="buttonreg">Lees meer</button></a>
+            <p>Het idee voor onze aperobus ontsproot in oktober 2017. Wij zijn een enthousiast team dat verzot is op lekker
+            eten en drinken: Lotte De Kimpe en Noa Dekocker. </p>
+        <div class="col-12 col-lg-6 d-flex justify-content-end">
+            <a href="02over_ons.html">
+                <button type="button" class="btn">Lees meer</button>
+            </a>
+        </div>
         </div>
     </div>
 </div>
 
-<div class="col-12 balk">
-    <h1>“Origineel concept dat ook nog eens goed tot uitvoering gebracht is: wij zijn fan!”</h1>
+<div id="carouselExampleIndicators" class="carousel slide" date-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <h1>"Origineel concept dat ook nog eens goed tot uitvoering gebracht is: wij zijn fan!"</h1>
+        </div>
+        <div class="carousel-item">
+            <h1>"Enthousiast personeel, vlotte bediening, smaakvolle gerechtjes."</h1>
+        </div>
+        <div class="carousel-item">
+            <h1>"Organisatie was top, eten super lekker en bediening heel vriendelijk."</h1>
+        </div>
+    </div>
 </div>
 
-<button data-toggle="collapse" data-target="#review" class="buttonreg">Schrijf een review</button>
-
-<div id="review" class="collapse">
-    <label for="review"></label>
-        <textarea class="form-control" id="review" rows="3"></textarea>
-        <button type="button" class="buttonreg">Bevestig</button>
+<div class="container">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-end">
+            <button data-toggle="collapse" data-target="#review" class="btnlang">Schrijf een review</button><br>
+        </div>
+        <div id="review" class="col-12 collapse">
+                <label for="review"></label>
+                <textarea class="form-control" id="review" rows="3"></textarea>
+                <button type="button" class="btn">Bevestig</button>
+        </div>
+    </div>
 </div>
