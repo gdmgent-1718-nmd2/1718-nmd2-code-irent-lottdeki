@@ -22,20 +22,86 @@ title: Huur mij - stap 3
         </div>
     </div>
     <div class="row">
-        <div class="col-12 radio">
-            <label><input type="radio" name="optradio">visa</label>
+        <div class="col-12 form-check">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="exampleRadios" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseExample"> Visa<br>
+            </label>
+            <div id="collapseOne" class="collapse hide" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                <form>
+                    <label>Naam kaarthouder:*</label><br>
+                    <input type="text" name="naamkaarthouder" class="kader">
+                </form>
+                <form>
+                    <label>Kaartnummer:*</label><br>
+                    <input type="text" name="kaart nummer" class="kader">
+                </form>
+                <form>
+                    <label>Geldig tot:*</label><br>
+                    <input type="text" name="geldigheidsdatum" class="kader">
+                </form>
+                <form>
+                    <label>CVC/CVV:*</label><br>
+                    <input type="text" name="CVC/CVV" class="kader">
+                </form>
+            </div>
         </div>
-        <div class="col-12 radio">
-            <label><input type="radio" name="optradio">bancontact</label>
+        <div class="col-12 form-check">
+            <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="exampleRadios" data-toggle="collapse" href="#collapseTwo" aria-expanded="true"> Paypal<br>
+            </label>
+            <div id="collapseTwo" class="collapse hide" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                <a href="https://www.paypal.com/be/home">https://www.paypal.com/be/home</a>
+            </div>
         </div>
-        <div class="col-12 radio">
-            <label><input type="radio" name="optradio">paypal</label>
+        <div class="col-12 form-check">
+            <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="exampleRadios" data-toggle="collapse" href="#collapseThree" aria-expanded="true"> Maestro<br>
+            </label>
+                <div id="collapseThree" class="collapse hide" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                    <form>
+                        <label>Naam kaarthouder:*</label><br>
+                        <input type="text" name="naamkaarthouder" class="kader">
+                    </form>
+                    <form>
+                        <label>Kaartnummer:*</label><br>
+                        <input type="text" name="kaart nummer" class="kader">
+                    </form>
+                    <form>
+                        <label>Geldig tot:*</label><br>
+                        <input type="text" name="geldigheidsdatum" class="kader">
+                    </form>
+                    <form>
+                        <label>CVC/CVV:*</label><br>
+                        <input type="text" name="CVC/CVV" class="kader">
+                    </form>
+                </div>
         </div>
-        <div class="col-12 radio">
-            <label><input type="radio" name="optradio">maestro</label>
+        <div class="col-12 form-check">
+            <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="exampleRadios" data-toggle="collapse" href="#collapseFour" aria-expanded="true"> Bancontact<br>
+            </label>
+                <div id="collapseFour" class="collapse hide" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+                    <form>
+                        <label>Naam kaarthouder:*</label><br>
+                        <input type="text" name="naamkaarthouder" class="kader">
+                    </form>
+                    <form>
+                        <label>Kaartnummer:*</label><br>
+                        <input type="text" name="kaart nummer" class="kader">
+                    </form>
+                    <form>
+                        <label>Geldig tot:*</label><br>
+                        <input type="text" name="geldigheidsdatum" class="kader">
+                    </form>
+                </div>
         </div>
-        <div class="col-12 d-flex justify-content-end">
-            <a href="stap4.html"><button type="button" class="btn">Bevestig</button></a>
+    </div>
+    <div class="row">
+        <div class="col-6 d-flex justify-content-start">
+            <a href="stap2.html"><button type="button" class="btnlang">Vorige stap</button></a>
+        </div>
+        <div class="col-6 d-flex justify-content-end">
+            <a href="stap4.html"><button type="button" class="btnkort">Betaal</button></a>
         </div>
     </div>
 </div>

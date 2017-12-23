@@ -13,6 +13,8 @@ h2 {
     color: $orange;
     font-family: $font-family-title;
     text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 p {
@@ -21,13 +23,13 @@ p {
 }
 
 // buttons
-.btn {
+.btnkort {
     color: $orange;
     border-top: none;
     border-right: none;
     border-bottom: solid;
-    border-left: none;
     border-bottom-color: $blue;
+    border-left: none;
     background: none;
     width: 100px;
     transition: width 2s;
@@ -39,6 +41,10 @@ p {
     &.btnhuurmij {
         color: $blue;
     }
+    &:active {
+        width: 150px;
+        margin-left: 0px;
+    }
 }
 
 .btnlang {
@@ -46,29 +52,19 @@ p {
     border-top: none;
     border-right: none;
     border-bottom: solid;
-    border-left: none;
     border-bottom-color: $blue;
+    border-left: none;
     background: none;
-    width: 200px;
+    width: 170px;
     transition: width 2s;
     margin-bottom: 10px;
     &:hover {
-        width: 250px;
+        width: 220px;
         margin-left: 0px;
     }
 }
 
-.socialmedia {
-    width: 50%;
-}
-
-.intro {
-    background-color: $blue;
-    padding: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-}
+//balk
 .balk {
     background-color: $blue;
     padding: 30px;
@@ -77,6 +73,7 @@ p {
     text-align: center;
 }
 
+//stappen
 .stapactief {
     background-color: $orange;
     height: 60px;
@@ -90,41 +87,47 @@ p {
 iframe {
     width: 100%;
     margin-top: 35px;
-    margin-bottom: 35px;
 }
 
 //input
-.kader{
+.kader {
+    border-style: solid;
+    border-color: $blue;
+    border-radius: 0;
+    border-width: 4px;
+    margin-bottom: 10px;
+}
+.radio {
+    border-radius: 5px;
+}
+input[type=radio] {
+    background-color: $blue;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    outline: none;
+    -webkit-appearance: none;
+    &:checked {
+      background-color: $orange;
+    }
+}
+.form-control .kader {
     border-style: solid;
     border-color: $blue;
     border-radius: 0;
     border-width: 4px;
 }
 
+//img
 .bus {
     width: 90%;
 }
-
-.radio {
-    border-radius: 5px;
-}
-
 .oprichters {
     height: 230px;
 }
-
 .aperobusvb {
     height: 250px;
 }
-
-.carousel-inner {
-    background-color: $blue;
-    padding: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
 .img-oranje {
     margin-bottom: 20px;
 }
@@ -151,12 +154,41 @@ iframe {
         opacity: 1;
     }
 }
-
 .img-hover-text {
     background-color:$blue;
     color: white;
     padding: 16px 32px;
 }
+
+//carousel
+.carousel-inner {
+    background-color: $blue;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.carousel-indicators .active {
+    background-color: $orange;
+}
+
+//faq
+.faqitem {
+    color: $blue;
+    &:hover {
+        color: $orange;
+        text-decoration-line: none;
+    }
+    &:focus {
+        color: $orange;
+    }
+}
+
+.socialmedia {
+    width: 20%;
+    height: 40%;
+}
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 

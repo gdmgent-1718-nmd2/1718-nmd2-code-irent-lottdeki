@@ -1,12 +1,16 @@
 .navbar {
     background-color: none;
 }
+
 .nav-item {
     background-color: $blue;
     padding: 5px;
     margin-left: 10px;
     margin-right: 10px;
     &:hover {
+        background-color: $orange;
+    }
+    &.active{
         background-color: $orange;
     }
 }
@@ -17,6 +21,11 @@
         color: white;
     }
 }
-.dropdown-item {
-    background-color: none;
+.streep {
+    background-color: $blue;
+    height: 1px;
+    width: 35px;
+    border-bottom: solid 3px;
+    margin-bottom: 8px;
+    outline: none;
 }
