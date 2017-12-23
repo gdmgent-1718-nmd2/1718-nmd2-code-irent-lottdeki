@@ -23,8 +23,12 @@ title: Huur mij - stap 4
     </div>
     <div class="row">
         <div class="col-12">
-            <h2>Bedankt voor jouw aankoop</h2>
-            <p>Je krijgt een bevestigingsmail als de betaling ontvangen is.</p>
+            <h3>OVERZICHT</h3>
+            <p>Naam: Sarah Van den Berghe</p>
+            <p>Gelegenheid: verjaardagsfeest</p>
+            <p>Aantal: 15</p>
+            <p>Datum: 04/05/2018</p>
+            <p>Totaal: €450</p>
         </div>
     </div>
     <div class="row">
@@ -32,7 +36,24 @@ title: Huur mij - stap 4
             <a href="stap3.html"><button type="button" class="btnlang">Vorige stap</button></a>
         </div>
         <div class="col-6 d-flex justify-content-end">
-            <a href=""><button type="button" class="btnkort">Bevestig</button></a>
+                <button type="button" class="btnkort" data-toggle="modal" data-target="#exampleModal">
+                Bevestig
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title" id="exampleModalLabel">Bedankt voor jouw bestelling</h2>
+                            </div>
+                            <div class="modal-body">
+                            Je krijgt een bevestigingsmail als de betaling ontvangen is!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btnkort" data-dismiss="modal">Sluiten</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 </div>

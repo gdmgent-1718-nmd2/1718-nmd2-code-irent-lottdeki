@@ -33,7 +33,21 @@ title: Over ons
         <div id="review" class="col-12 collapse">
             <label for="review"></label>
             <textarea class="form-control" id="review" rows="3"></textarea>
-            <button type="button" class="btnkort">Bevestig</button>
+            <button type="button" class="btnkort" data-toggle="modal" data-target="#exampleModal">
+                    Bevestig
+                    </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-body">
+                                  Bedankt voor je review!
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btnkort" data-dismiss="modal">Sluiten</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
         </div>
     </div>
     <div class="row">
@@ -47,11 +61,8 @@ title: Over ons
         </div>
     </div>
     <div class="row">
-        <div class="col-6">
-            <img src="assets/img/lotte.jpg" class="oprichters">
-        </div>
-        <div class="col-6">
-            <img src="assets/img/noa.jpg" class="oprichters">
+        <div class="col-12">
+            <img src="assets/img/overons.jpg" class="img-fluid float-center" alt="oprichters">
         </div>
     </div>
 </div>

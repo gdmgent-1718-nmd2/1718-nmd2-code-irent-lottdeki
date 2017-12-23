@@ -1,5 +1,5 @@
 body {
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 h1 {
@@ -13,8 +13,12 @@ h2 {
     color: $orange;
     font-family: $font-family-title;
     text-transform: uppercase;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-transform: uppercase;
 }
 
 p {
@@ -68,9 +72,9 @@ p {
 .balk {
     background-color: $blue;
     padding: 30px;
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
 }
 
 //stappen
@@ -120,17 +124,13 @@ input[type=radio] {
 
 //img
 .bus {
-    width: 90%;
+    margin-top: 20px;
 }
-.oprichters {
-    height: 230px;
-}
-.aperobusvb {
-    height: 250px;
-}
+
 .img-oranje {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
+
 .img-hover {
     opacity: 1;
     display: block;
@@ -184,50 +184,21 @@ input[type=radio] {
     }
 }
 
-.socialmedia {
-    width: 20%;
-    height: 40%;
-}
-
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-    .bus {
-        width: 85%;
-    }
-    .oprichters {
-        height: 300px;
-    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-    .bus {
-        width: 80%;
-    }
-    .oprichters {
-        height: 400px;
-    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    .bus {
-        width: 65%;
-    }
-    .oprichters {
-        height: 500px;
-    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-    .bus {
-        width: 65%;
-    }
-    .oprichters {
-        height: 600px;
-    }
 }

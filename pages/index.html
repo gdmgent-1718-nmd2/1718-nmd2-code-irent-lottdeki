@@ -5,9 +5,12 @@ permalink: /index
 # ─────────────────────
 title: Home
 ---
-
-<div class="text-center">
-            <img src="assets/img/aperobus_illustratie.png" class="bus">
+<div class="container">
+    <div class="row">
+        <div class="col-12 float-center bus">
+            <img src="assets/img/aperobus_illustratie.png" class="img-fluid float-center" alt="aperobus">
+        </div>
+    </div>
 </div>
 
 <div class="balk">
@@ -68,7 +71,21 @@ title: Home
         <div id="review" class="col-12 collapse">
                 <label for="review"></label>
                 <textarea class="form-control" id="review" rows="3"></textarea>
-                <button type="button" class="btnkort">Bevestig</button>
+                <button type="button" class="btnkort" data-toggle="modal" data-target="#exampleModal">
+                Bevestig
+                </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-body">
+                              Bedankt voor je review!
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btnkort" data-dismiss="modal">Sluiten</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
         </div>
     </div>
 </div>
