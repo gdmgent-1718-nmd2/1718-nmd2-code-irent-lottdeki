@@ -3,9 +3,9 @@ body {
 }
 
 h1 {
-    color: white;
-    text-transform: uppercase;
+    color: $white;
     font-size: 16px;
+    text-transform: uppercase;
     line-height: 26px;
 }
 
@@ -19,6 +19,8 @@ h2 {
 
 h3 {
     text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -37,7 +39,8 @@ p {
     background: none;
     width: 100px;
     transition: width 2s;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     &:hover{
         width: 150px;
         margin-left: 0px;
@@ -75,6 +78,7 @@ p {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    height: 130px;
 }
 
 //stappen
@@ -115,7 +119,8 @@ input[type=radio] {
       background-color: $orange;
     }
 }
-.form-control .kader {
+
+.form-control {
     border-style: solid;
     border-color: $blue;
     border-radius: 0;
@@ -125,6 +130,7 @@ input[type=radio] {
 //img
 .bus {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .img-oranje {
@@ -157,7 +163,8 @@ input[type=radio] {
 .img-hover-text {
     background-color:$blue;
     color: white;
-    padding: 16px 32px;
+    font-size: 14px;
+    padding: 10px;
 }
 
 //carousel
@@ -184,21 +191,54 @@ input[type=radio] {
     }
 }
 
+.faq {
+    margin-bottom: 30px;
+}
+.pijl {
+    margin-left: 30px;
+}
+.insta {
+    width: 40px;
+    margin-right: 10px;
+}
+.facebook {
+    height: 40px;
+}
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+    .img-hover-text {
+        font-size: 15px;
+        padding: 11px;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+    .img-hover-text {
+        font-size: 16px;
+        padding: 12px;
+    }
+    .balk {
+        margin-top: 65px;
+    }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    .img-hover-text {
+        font-size: 17px;
+        padding: 13px;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+    .img-hover-text {
+        font-size: 18px;
+        padding: 14px;
+    }
 }
