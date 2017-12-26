@@ -4,8 +4,8 @@ body {
 
 h1 {
     color: $white;
-    font-size: 16px;
     text-transform: uppercase;
+    font-size: 16px;
     line-height: 26px;
 }
 
@@ -70,16 +70,18 @@ p {
         margin-left: 0px;
     }
 }
+//
 
 //balk
 .balk {
     background-color: $blue;
+    height: 130px;
     padding: 30px;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    height: 130px;
 }
+//
 
 //stappen
 .stapactief {
@@ -90,12 +92,15 @@ p {
     background-color: $blue;
     height: 60px;
 }
+//
 
 //map
 iframe {
     width: 100%;
-    margin-top: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+//
 
 //input
 .kader {
@@ -105,9 +110,7 @@ iframe {
     border-width: 4px;
     margin-bottom: 10px;
 }
-.radio {
-    border-radius: 5px;
-}
+
 input[type=radio] {
     background-color: $blue;
     cursor: pointer;
@@ -126,6 +129,7 @@ input[type=radio] {
     border-radius: 0;
     border-width: 4px;
 }
+//
 
 //img
 .bus {
@@ -148,6 +152,7 @@ input[type=radio] {
         opacity: 0,3;
     }
 }
+
 .img-hover-midden {
     transition: .5s ease;
     opacity: 0;
@@ -160,12 +165,14 @@ input[type=radio] {
         opacity: 1;
     }
 }
+
 .img-hover-text {
     background-color:$blue;
     color: white;
     font-size: 14px;
     padding: 10px;
 }
+//
 
 //carousel
 .carousel-inner {
@@ -175,9 +182,11 @@ input[type=radio] {
     margin-bottom: 30px;
     text-align: center;
 }
+
 .carousel-indicators .active {
     background-color: $orange;
 }
+//
 
 //faq
 .faqitem {
@@ -194,16 +203,23 @@ input[type=radio] {
 .faq {
     margin-bottom: 30px;
 }
-.pijl {
-    margin-left: 30px;
-}
+//
+
+//socialmedia
 .insta {
     width: 40px;
     margin-right: 10px;
 }
+
 .facebook {
     height: 40px;
 }
+
+//icon
+.pijl {
+    margin-left: 30px;
+}
+//
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
